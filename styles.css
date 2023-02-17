@@ -1,0 +1,232 @@
+@import url('https://googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+    background-color: rgb(94, 158, 226);
+    width: 434px;
+    font-family: 'Fira sans',sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vw;
+    background-color: black
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    background-color: black;
+    color: white;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 60px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira sans',sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.aboutme{
+    font-size: 20px;
+    font-family: 'Fira sans',sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 27px;
+    background-color: rgb(94, 158, 226);
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    margin:0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: rgb(94, 158, 226);
+}
+.devPic img{
+    height: 58vh;
+}
+.contact{
+    color: white;
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira sans',sans-serif;          
+}
+.contact h1{
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 9px 0; */
+    color: white
+}
+.contact form div{
+    padding: 8px 0px;
+    display:flex;
+    flex-direction: column;
+    color: white
+}
+.contact form div input{
+    width: 16vw;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    border-radius: 5px;
+    color: white
+}
+#emailHelp{
+    font-size:11px;
+    columns: midnightblue;
+    margin: 0 5px;
+    color: white
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+
+a i {
+    color: #333;
+    margin-right: 10px;
+  }
+
+  .social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons i,
+  .social i {
+    color: #000000;
+  }
+  .social-icons a:hover {
+    background-color: #000000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+  }
+  .social-icons a:hover i,
+  .social a:hover i {
+    color: #ffffff;
+    transition: all ease 0.5s;
+  }
+  
+  .copyright {
+    /* color: #565555; */
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+  .social {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+  }
+  .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  }
+  .social a:hover {
+    background-color: #000000;
+    transition: all ease 0.5s;
+  }
+  .social i {
+    font-size: 20px;
+    color: #2b2b2b;
+  }
+  .school{
+    background-color: black;
+    color: white;
+  }
+  .puc{
+    background-color: black;
+    color: white;
+  }
+  .college{
+    background-color: black;
+    color: white;
+  }
+  .year{
+    font-size: 25px;
+    color: rgb(75, 223, 58);
+    font-weight: 550;
+  }
+  .head{
+    font-size: 38px;
+    font-weight: 700;
+  }
+  .text{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .skills{
+    width: 900px;
+    /* border: 3px solid purple; */
+    margin: 33px auto;
+    background-color: rgb(94, 158, 226);
+
+  }
+  .common{
+    border: 2px solid gray;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color:black ;
+    color: white;
+  }
